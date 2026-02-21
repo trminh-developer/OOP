@@ -1,8 +1,7 @@
 public class Customers {
-
-    String name;
-    String phone;
-    String address;
+    private String name;
+    private String phone;
+    private String address;
 
     public Customers(String _name, String _phone, String _address) {
         this.name = _name;
