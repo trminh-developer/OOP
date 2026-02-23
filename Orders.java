@@ -29,7 +29,6 @@ public class Orders {
             f.ShowInfo();
             System.out.println("Real Price: " + f.RealPrice());
         }
-
         System.out.printf("Total amount: %.2f%n", SumPrice());
     }
 
