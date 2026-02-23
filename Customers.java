@@ -10,8 +10,6 @@ public class Customers {
     }
 
     public void ShowInfo() {
-        System.out.println("Name: " + this.name);
-        System.out.println("Phone: " + this.phone);
-        System.out.println("Address: " + this.address);
+        System.out.println("Name: " + this.name + "\nPhone: " + this.phone + "\nAddress: " + this.address);
     }
 }

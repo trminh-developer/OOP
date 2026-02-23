@@ -10,9 +10,7 @@ public class Foods {
     }
 
     public void ShowInfo() {
-        System.out.println("Name: " + this.name);
-        System.out.println("Price: " + this.price);
-        System.out.println("Discount: " + this.discount + "%");
+        System.out.println("Name: " + this.name + "\nPrice: " + this.price + "\nDiscount: " + this.discount + "%");
     }
 
     public double RealPrice() {
